@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Quiz</title>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Solve The Quiz</h1>
+        <form id="quiz-form">
+            <!-- Question 1 -->
+            <div class="question">
+                <label class="question-label">What is the capital of France?</label>
+                <div class="answer-options">
+                    <div class="answer-option">
+                        <input type="radio" name="q1" value="Paris">
+                        <label>Paris</label>
+                    </div>
+                    <div class="answer-option">
+                        <input type="radio" name="q1" value="London">
+                        <label>London</label>
+                    </div>
+                    <div class="answer-option">
+                        <input type="radio" name="q1" value="Berlin">
+                        <label>Berlin</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="question">
+                <label class="question-label">What is the largest planet in our solar system?</label>
+                <div class="answer-options">
+                    <div class="answer-option">
+                        <input type="radio" name="q2" value="Earth">
+                        <label>Earth</label>
+                    </div>
+                    <div class="answer-option">
+                        <input type="radio" name="q2" value="Saturn">
+                        <label>Saturn</label>
+                    </div>
+                    <div class="answer-option">
+                        <input type="radio" name="q2" value="Jupiter">
+                        <label>Jupiter</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add more questions here -->
+
+            <!-- Submit button -->
+            <input type="submit" value="Submit Quiz" class="submit-button">
+        </form>
+
+        <!-- Display quiz results -->
+        <div id="quiz-results"></div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
