@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Portfollio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div class="container">
+            <header >
+                <nav>
+                    <div class="nav">
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#interests">Interests</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <section id="home">
+                <h1 id="me">Hi All I'm
+                <span class="wave">👋</span>
+                </h1>
+                    <div style="color:green"; class="back">
+                        <!--include about your image link after uploading the image-->
+                        <img src="my img.jpg"></img>
+                    </div>
+                    <br><br>
+                    <div>
+                <p style="text-align:center; font-size: 25px; text-indent: 2cm; width: 90%;">A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript- /Reactjs / Nodejs / React Native and some other cool libraries and frameworks
+                </p>
+            </section>
+                    <br><br>
+                <div style="color:rgb(8, 8, 8)" class="int">
+            <h2 id="intr">Interests</h2>
+                <ul>
+                    <li>Drawing</li>
+                    <li>Photography</li>
+                    <li>Design</li>
+                    <li>Programming</li>
+                    <li>Computer Science</li>
+                </ul>
+                </div>
+            <div style="color:rgb(0, 0, 0)" class="skill">
+            <h2 id="skil" >Skills</h2>
+            <ol style="color: cornflowerblue;">
+                <!--if needed more Skills can be added in the list-->
+                <li><b>Web Design with HTML</b></li>
+                <li><b>JavaScript</b></li>
+                <li><b>React JS</b></li>
+                <li><b>CSS</b></li>
+            </ol>
+            </div>
+            <div class="pro">
+                <h2 id="pro">Projects</h2>
+                <ul style="list-style-type: none;">
+                    <h4 style="text-align: center; color:rgb(126, 109, 11);">1. Insta Share (Mini Project)</h4>
+                    <p style="text-align: justify;"><b>Developed an Instagram clone app, a dynamic web application using Reactjs:</b></p> 
+                        <p style="text-align:justify; padding:0 15px 0px 0px;"><b>1.1- </b>Implemented Authentication.
+                        <br>
+                        <b>1.2-</b> When an unauthenticated user tries to navigate home or user details page then the user redirects to the 
+                        login page, when an authenticated user tries to navigate to the login page then the user redirects to the 
+                        home page. This function is easily implemented by Protected Route using cookies, redirect and route.
+                       <br> <b>1.3-</b> When a user clicks on a specific username then navigates to that particular user details route where 
+                        more information is brought through that username using API Calls.
+                        <br><b>1.4-</b> Implemented third party packages like React Slick to display user stories.
+                        <br><b>1.5-</b> Implemented search feature to filter posts by their caption. </p>
+                       <p style="text-align: justify;"><span style="color: chocolate;"> Technologies Used:</span> HTML, CSS, Reactjs, REST API Calls</p>
+                       <br>
+                       <h4 style="text-align: center; color:rgb(126, 109, 11);">2. Todos Application</h4>
+                       <p style="text-align:justify;"><b>Developed persistent todo application with CRUD operations to the tracklist of tasks:</b></p>
+                       <p style="text-align: justify; text-align:justify; padding:0 15px 0px 0px;"><b>2.1 </b> The displayed list of todos with HTML list elements, styled todo list using CSS, Bootstrap
+                        <b>2.2 </b> Implemented todo crud operations by using JavaScript event listeners and updated UI dynamically 
+                        by using JavaScript DOM operations.
+                        <b> 2.3 </b> Used Arrays, Objects, and their methods during todo list CRUD Operations Persisted todo list state 
+                        on page reloads using local storage methods.</p>
+                        <p style="text-align: justify;"><span style="color: chocolate;">Technologies used:</span> CSS,HTML, CSS, JS, Bootstrap</p>
+            </div>
+                <div class="tab3">
+                <table border="2" width="30%" class="tab2" >
+                <caption><b>Contact Us</b></caption>
+                    <!--Header row-->
+                    <tr style="background-color: aquamarine;">
+                    <th>Phone</th>
+                    <th>Email</th>
+                </tr>
+                    <!--Data row 1-->
+                <tr>
+                    <td>9022582595</td>
+                    <td>kadamshubha4734@gmail.com</td>
+                </tr>
+                </table>
+                </div>
+                <div class="social">
+                <a href="https://www.facebook.com/profile.php?id=100048202031856"><img src="facebook-icon.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/xvi.shubham.07/"><img src="instagram-icon.png" alt="Instagram"></a>
+                <a href="https://www.linkedin.com/in/shubham-kadam-98b3801b5?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bfvd6aj4ZRUO2V75%2FQ1zA1g%3D%3D"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"></a>
+                <a href="https://github.com/shubhammmsk"><img src="github-icon.png" alt="GitHub"></a>
+                <a href="https://mr.quora.com/profile/Shubham-Kadam-555?ch=17&oid=1421059759&share=f8d5c853&srid=hVTBv8&target_type=user"><img src="https://www.iconpacks.net/icons/2/free-quora-logo-icon-2439-thumb.png" alt="Quora"></a>
+                </div>
+                <br>
+                <div>
+                <h2>Connect with me</h2>
+                <form class="form">
+                <!-- label for defining user information-->
+                <label>Add your message here:</label> <br>
+                <!-- text area -->
+                <textarea rows="5" cols="50" name="Description"id="Description"></textarea> <br><br>
+                <!--button with alert-->
+                <button type="button" onclick="alert('Thanks for your message')">Submit</button>
+                </form>
+                </div>
+    </div>
+    <script type="text/javascript" src=script.js></script>
+    </body>
+</html>

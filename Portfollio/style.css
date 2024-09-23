@@ -1,0 +1,138 @@
+body{
+  /* background-image: url(background.jpg); */
+  background-attachment:fixed;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-size: cover;
+  background: white;
+    
+}
+.container{
+  width: 80%;
+  margin: 0px auto;
+  border: 2px solid black;
+}
+.wave {
+    display: inline-block;
+    animation: wave-animation 5s infinite;
+}
+
+@keyframes wave-animation {
+    0%, 60%, 100% {
+        transform: rotate(0deg);
+    }
+    30% {
+        transform: rotate(15deg);
+    }
+    50% {
+        transform: rotate(-15deg);
+    }
+}
+.h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  /* display: flex; */
+  justify-content: center;
+  gap: 20px;
+  background-color: rgba(127, 255, 212, 0.4);
+  box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.4);
+  transition: background-color 0.3s ease-in-out;
+  /* position: fixed; */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #2929e9;
+  font-weight: bold;
+}
+.int ul{
+  list-style-type: none;
+  text-align: center;
+}
+.nav ul{
+  list-style-type: none;
+  display: flex;
+}
+.skill ol{
+  list-style-type: none;
+  text-align: center;
+}
+/* h2:hover{
+  color: black;
+  background-color:orange;
+} */
+.tab2{
+  border-collapse: collapse;
+}
+.h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 20px;
+}
+.back img{
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  float: left;
+}
+#home h1{
+  text-align: center;
+  padding: 10px;
+  float: center;
+}
+.social{
+  display: flex;
+  gap: 10px;
+  justify-content:center;
+}
+.social img{
+  width: 30px;
+  height: 30px;
+  margin: 15px 10px 0 00px;
+}
+.pro{
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
+h2{
+  text-align: center;
+  margin:10px 400px 10px 500px;
+  padding: 5px 20px 5px;
+  border:solid 2px rgb(113, 3, 147);
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.tab3{
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 400px;
+  padding: 10px;
+  text-align: center;
+}
+.form{
+  width: 20%;
+  margin: auto;
+}
+ .form button{
+  padding: 10px 10px;
+  display: block;
+  margin: 0px 150px 10px;
+  color: #007bff;
+ }
+ .form button:hover{
+  background-color: rgb(44, 72, 149);
+  color: white;
+ }
+ #me{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
